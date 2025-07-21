@@ -16,6 +16,8 @@ $pageController = new PageController();
 $pageController->home(); //quand on change ce qui est en vert on change de page
 */
 
+// inclure home direct dans index
+
 
 
 

@@ -26,6 +26,16 @@ public function about (): void
 {
     $this->render("page/about");
 }
+
+public function render(string $templatePath, array $params = []): void
+{
+    extract($params); // rend les variables disponibles dans la vue
+    ob_start();
+    require APP_ROOT . "/templates/{$templatePath}.php";
+    $content = ob_get_clean();
+    require APP_ROOT . "/templates/layout.php"; // ou layout.php
+}
+
     }
 
 

@@ -12,7 +12,7 @@ class UtilisateurRepository  extends Repository
 
         $utilisateur = $query->fetchAll($this->pdo::FETCH_CLASS, Utilisateur::class);
         
-
+        var_dump($utilisateur);
 
         return $utilisateur;
     }
