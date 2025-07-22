@@ -1,0 +1,137 @@
+
+.header{
+    background-color: #DEEDFB;
+    width: 100%; /* 100% de la largeur visible */
+    border-radius: 20px; /* ← coins arrondis */
+    margin-top: 20px;
+
+}
+
+
+.recherche{
+    background-color: #DEEDFB;
+    border-radius: 20px; /* ← coins arrondis */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fdf7;
+    padding: 20px;
+    margin: 0; /* enlève les marges par défaut */
+  height: 100vh; /* prend toute la hauteur de la fenêtre */
+  background-image: url("https://media.istockphoto.com/id/1451295564/fr/photo/voiture-%C3%A9lectrique-et-%C3%A9nergie-%C3%A9lectrique-ev-pour-lenvironnement-voiture-ev-sur-route.webp?s=1024x1024&w=is&k=20&c=k1CQs-u0PZ-EDRToXg0CwOGCuG53kLTJqmdjzi_vugk="); /* ton image */
+  background-size: 175%;       /* couvre tout l'écran */
+  background-position: left center;  /* centre l'image */
+  background-repeat: no-repeat; /* ne répète pas l'image */
+  background-attachment: fixed; /* optionnel : effet "parallax" */
+    width: 100%; /* 100% de la largeur visible */
+}
+
+.trajet {
+    border: 1px solid #a0d6b4;
+    background-color: #e6f9ec;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 8px;
+    background-color: #cfe0d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0%;
+
+}
+
+button:hover {
+    background-color: #cee7ce;
+    padding-right: 0%;
+}
+
+.h1 {
+        text-align: center;
+    font-size: 30px;
+    color: #A77E3D;
+    background-color: #DEEDFB;
+    border-radius: 22px; /* ← coins arrondis */
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #A77E3D;
+    background-color: #DEEDFB;
+    border-radius: 22px; /* ← coins arrondis */
+    margin-bottom: 0;
+
+}
+
+h3{
+        text-align: center;
+    font-size: 15px;
+    color: #A77E3D;
+    background-color: #DEEDFB;
+    border-radius: 22px; /* ← coins arrondis */
+    margin-bottom: 0;
+
+}
+
+p {
+    color: #A77E3D;
+    margin: 20px;
+}
+
+.presentation{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #DEEDFB;
+    width: 100%; /* 100% de la largeur visible */
+    border-radius: 22px; /* ← coins arrondis */
+        transform: translateY(50px); /* déplacement visuel vers le bas */
+             display: flex;         /* met les images sur une ligne */
+    gap: 10px;             /* espace entre les images */
+    justify-content: center; /* centre les images horizontalement */
+}
+
+.image{
+    margin: 40px;
+     display: flex;         /* met les images sur une ligne */
+    gap: 10px;             /* espace entre les images */
+    justify-content: center; /* centre les images horizontalement */
+}
+
+.img{
+     display: flex;         /* met les images sur une ligne */
+    gap: 45px;             /* espace entre les images */
+    justify-content: center; /* centre les images horizontalement */
+    background-color: #DEEDFB;
+    border-radius: 22px; /* ← coins arrondis */
+    align-items: center;
+    display: flex;
+    transform: translateY(50px); /* déplacement visuel vers le bas */
+
+}
+
+.row{
+    display: flex;
+  gap: 20px; /* espace entre les divs */
+}
+
+.box{
+    width: 100px;
+  height: 100px;
+  background-color
+  : #DEEDFB;
+}
+
